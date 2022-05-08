@@ -89,7 +89,7 @@ body {
           align-items: center;
 }
 
-.form-register {
+.form-registro {
   background: #082032;
   width: 400px;
   padding: 30px;
@@ -102,12 +102,39 @@ body {
           box-shadow: 7px 13px 37px #000;
 }
 
-.form-register h4 {
+.form-registro h4 {
   font-size: 22px;
   margin-bottom: 20px;
 }
 
-.controls {
+.form-registro p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-registro a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-registro a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-registro .botons {
+  width: 100%;
+  background: #24303c;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.controles {
   width: 100%;
   background: #24303c;
   padding: 10px;
@@ -117,33 +144,6 @@ body {
   font-family: 'calibri';
   font-size: 18px;
   color: white;
-}
-
-.form-register p {
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 40px;
-}
-
-.form-register a {
-  color: white;
-  text-decoration: none;
-}
-
-.form-register a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.form-register .botons {
-  width: 100%;
-  background: #24303c;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
 }
 
 .marg1 {
