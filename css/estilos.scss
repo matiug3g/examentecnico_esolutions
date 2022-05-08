@@ -273,3 +273,45 @@ body {
         }
     }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .cardIndex{
+        margin: auto;
+    }
+
+    .marg1{
+        margin: auto;
+        p{
+            width: 450px;
+        }
+    }
+    .centrar {
+        svg{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: auto;
+        }
+        
+    }
+    .formulario1{
+        width: 400px;
+        margin: auto 90px;
+        p{
+            font-size: 15px;
+        }
+        input,
+        textarea {
+            outline: none;
+            width: 100%;
+            border: 1px solid white;
+        }
+    
+        .field {
+            margin-bottom: 10px;
+            border: 1px solid #999;
+            padding: 15px;
+        }
+    }
+}

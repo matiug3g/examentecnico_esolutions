@@ -307,4 +307,44 @@ body {
     font-size: 13px;
   }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .cardIndex {
+    margin: auto;
+  }
+  .marg1 {
+    margin: auto;
+  }
+  .marg1 p {
+    width: 450px;
+  }
+  .centrar svg {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .formulario1 {
+    width: 400px;
+    margin: auto 90px;
+  }
+  .formulario1 p {
+    font-size: 15px;
+  }
+  .formulario1 input,
+  .formulario1 textarea {
+    outline: none;
+    width: 100%;
+    border: 1px solid white;
+  }
+  .formulario1 .field {
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    padding: 15px;
+  }
+}
 /*# sourceMappingURL=estilos.css.map */
