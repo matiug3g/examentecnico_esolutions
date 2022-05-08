@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#colorIndex {
+  background-image: url(../img/fondo.svg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1695d8), color-stop(#0285cc), color-stop(#0075c0), color-stop(#0065b3), color-stop(#0455a5), color-stop(#03509e), color-stop(#014c96), color-stop(#00478f), color-stop(#004c8b), color-stop(#005086), color-stop(#005380), to(#13567a));
+  background-image: linear-gradient(to bottom, #1695d8, #0285cc, #0075c0, #0065b3, #0455a5, #03509e, #014c96, #00478f, #004c8b, #005086, #005380, #13567a);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.centrar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.cardIndex {
+  color: #fff;
+  padding: 50px;
+  margin: 70px auto;
+}
+
+.cardIndex img {
+  width: 80px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto auto 20px auto;
+  border: solid 5px #fff;
+  border-radius: 90%;
+  width: 300px;
+}
+
+.cardIndex h3 {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardIndex h4 {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-register {
+  background: #082032;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  -webkit-box-shadow: 7px 13px 37px #000;
+          box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #24303c;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.marg1 {
+  color: #fff;
+  padding: 50px;
+  margin: 50px auto;
+}
+
+.marg1 h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  margin: auto auto 80px auto;
+}
+
+.marg1 img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto auto 70px auto;
+  width: 300px;
+}
+
+.marg1 p {
+  width: 500px;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+.formulario1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: justify;
+  margin: 50px auto 50px auto;
+  width: 600px;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+.formulario1 input,
+.formulario1 textarea {
+  outline: none;
+  width: 100%;
+  border: 0;
+}
+
+.formulario1 .field {
+  margin-bottom: 30px;
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+.formulario1:focus {
+  border: 3px solid red;
+}
+
+.formulario1 p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: white;
+}
+
+/* BOTON FORMULARIO */
+.center-content {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 1px;
+  height: 50px;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba 255, 255, 255, 0.3;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-yellow {
+  color: white;
+  background-color: #3CC93F;
+}
+
+.btn-yellow:hover {
+  background-color: #37b839;
+}
+
+.btn-yellow:active {
+  background-color: #29962A;
+}
+
+.btn-red {
+  color: white;
+  background-color: #E34242;
+}
+
+.btn-red:hover {
+  background-color: #C43535;
+}
+
+.btn-red:active {
+  background-color: #A62828;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .hidden {
+    display: none !important;
+  }
+  .marg1 {
+    color: #fff;
+    padding: 50px;
+    margin: 50px auto;
+  }
+  .marg1 h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: auto auto 80px auto;
+    font-size: 30px;
+  }
+  .marg1 img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto auto 70px auto;
+    width: 250px;
+  }
+  .marg1 p {
+    width: 500px;
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
