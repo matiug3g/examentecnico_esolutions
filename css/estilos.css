@@ -186,7 +186,7 @@ body {
 }
 
 #cartel p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 @-webkit-keyframes desaparece {
@@ -476,22 +476,22 @@ body {
   .hidden {
     display: none !important;
   }
-  #cartel p {
-    font-size: 13px;
+  .formRegistro {
+    width: 90%;
   }
-  #cartel .marg1 {
+  .marg1 {
     color: #fff;
     padding: 50px;
     margin: 50px auto;
   }
-  #cartel .marg1 h1 {
+  .marg1 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     margin: auto auto 80px auto;
     font-size: 30px;
   }
-  #cartel .marg1 img {
+  .marg1 img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -501,7 +501,7 @@ body {
     margin: auto auto 70px auto;
     width: 250px;
   }
-  #cartel .marg1 p {
+  .marg1 p {
     width: 500px;
     margin: auto;
     -webkit-box-pack: center;
@@ -514,7 +514,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 991px) and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .cardIndex img {
     margin: 0px;
   }
@@ -522,16 +522,13 @@ body {
     margin: 0px;
     padding: 10px;
   }
-  .marg1 {
+  .cardIndex .marg1 {
     margin: auto;
   }
-  .marg1 p {
+  .cardIndex .marg1 p {
     width: 250px;
   }
-  .formRegistro {
-    width: 90%;
-  }
-  .centrar svg {
+  .cardIndex .centrar svg {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -540,33 +537,40 @@ body {
             align-items: center;
     text-align: center;
   }
-  .formulario1 {
+  .cardIndex .formulario1 {
     width: 300px;
     margin: auto;
   }
-  .formulario1 p {
+  .cardIndex .formulario1 p {
     font-size: 15px;
   }
-  .formulario1 input,
-  .formulario1 textarea {
+  .cardIndex .formulario1 input,
+  .cardIndex .formulario1 textarea {
     outline: none;
     width: 100%;
     border: 1px solid white;
   }
-  .formulario1 .field {
+  .cardIndex .formulario1 .field {
     margin-bottom: 10px;
     border: 1px solid #999;
     padding: 10px;
   }
-  .formRegistro {
+  .cardIndex .formRegistro {
+    width: 90%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
   }
+  .cardIndex #cartel {
+    width: 80%;
+  }
+  .cardIndex #cartel p {
+    font-size: 30px !important;
+  }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 991px) and (min-width: 481px) and (max-width: 978px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) and (min-width: 481px) and (max-width: 978px) {
   .cardIndex {
     margin: auto;
   }

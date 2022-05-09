@@ -150,7 +150,7 @@ body {
 
 #cartel {
     p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
 }
@@ -396,11 +396,9 @@ body {
     .hidden {
         display: none !important;
     }
-
-    #cartel {
-        p {
-            font-size: 13px;
-        }
+    .formRegistro{
+        width: 90%;
+    }
 
         .marg1 {
             color: #fff;
@@ -445,8 +443,6 @@ body {
                 margin: 0px;
                 padding: 10px;
             }
-        }
-
         .marg1 {
             margin: auto;
 
@@ -454,9 +450,7 @@ body {
                 width: 250px;
             }
         }
-        .formRegistro{
-            width: 90%;
-        }
+
         .centrar {
             svg {
                 justify-content: center;
@@ -489,9 +483,16 @@ body {
         }
 
         .formRegistro {
+            width: 90%;
             align-items: center;
             text-align: center;
 
+        }
+        #cartel{
+            width: 80%;
+            p{
+                font-size: 30px !important;
+            }
         }
     }
 
