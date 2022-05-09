@@ -185,8 +185,8 @@ body {
   animation: desaparece 5s forwards;
 }
 
-#cartel {
-  font-size: 25px;
+#cartel p {
+  font-size: 16px;
 }
 
 @-webkit-keyframes desaparece {
@@ -476,19 +476,22 @@ body {
   .hidden {
     display: none !important;
   }
-  .marg1 {
+  #cartel p {
+    font-size: 13px;
+  }
+  #cartel .marg1 {
     color: #fff;
     padding: 50px;
     margin: 50px auto;
   }
-  .marg1 h1 {
+  #cartel .marg1 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     margin: auto auto 80px auto;
     font-size: 30px;
   }
-  .marg1 img {
+  #cartel .marg1 img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -498,7 +501,7 @@ body {
     margin: auto auto 70px auto;
     width: 250px;
   }
-  .marg1 p {
+  #cartel .marg1 p {
     width: 500px;
     margin: auto;
     -webkit-box-pack: center;
@@ -511,7 +514,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 991px) and (min-width: 320px) and (max-width: 480px) {
   .cardIndex img {
     margin: 0px;
   }
@@ -524,6 +527,9 @@ body {
   }
   .marg1 p {
     width: 250px;
+  }
+  .formRegistro {
+    width: 90%;
   }
   .centrar svg {
     -webkit-box-pack: center;
@@ -560,7 +566,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 978px) {
+@media only screen and (min-width: 320px) and (max-width: 991px) and (min-width: 481px) and (max-width: 978px) {
   .cardIndex {
     margin: auto;
   }

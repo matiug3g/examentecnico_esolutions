@@ -16,7 +16,8 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 
 }
-.burbuja{
+
+.burbuja {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -28,75 +29,87 @@ body {
     left: 5%;
     animation: burbujas 3s linear infinite
 }
-.burbuja:nth-child(1){
+
+.burbuja:nth-child(1) {
     width: 80px;
     height: 80px;
     left: 15%;
     animation-duration: 3s;
     animation-delay: 1s;
 }
-.burbuja:nth-child(2){
+
+.burbuja:nth-child(2) {
     width: 100px;
     height: 100px;
     left: 30%;
     animation-duration: 3s;
     animation-delay: 2s;
 }
-.burbuja:nth-child(3){
+
+.burbuja:nth-child(3) {
     width: 80px;
     height: 80px;
     left: 80%;
     animation-duration: 5s;
     animation-delay: 0.5s;
 }
-.burbuja:nth-child(4){
+
+.burbuja:nth-child(4) {
     width: 60px;
     height: 60px;
     left: 70%;
     animation-duration: 3s;
     animation-delay: 0.6s;
 }
-.burbuja:nth-child(5){
+
+.burbuja:nth-child(5) {
     width: 90px;
     height: 90px;
     left: 90%;
     animation-duration: 3s;
     animation-delay: 0.4s;
 }
-.burbuja:nth-child(6){
+
+.burbuja:nth-child(6) {
     width: 70px;
     height: 70px;
     left: 27%;
     animation-duration: 3s;
     animation-delay: 0.3s;
 }
-.burbuja:nth-child(7){
+
+.burbuja:nth-child(7) {
     width: 100px;
     height: 100px;
     left: 77%;
     animation-duration: 3s;
     animation-delay: 0.1s;
 }
-.burbuja:nth-child(8){
+
+.burbuja:nth-child(8) {
     width: 100px;
     height: 100px;
     left: 1%;
     animation-duration: 3s;
     animation-delay: 0.01s;
 }
-@keyframes burbujas{
-    0%{
+
+@keyframes burbujas {
+    0% {
         bottom: 0;
         opacity: 0;
     }
-    50%{
+
+    50% {
         opacity: .4;
     }
-    100%{
+
+    100% {
         bottom: 100vh;
         opacity: 0;
     }
 }
+
 #colorIndex {
     background-image: url(../img/fondo.svg);
     background-image: linear-gradient(to bottom, #1695d8, #0285cc, #0075c0, #0065b3, #0455a5, #03509e, #014c96, #00478f, #004c8b, #005086, #005380, #13567a);
@@ -114,9 +127,9 @@ body {
     text-align: center;
     margin: auto;
 }
-.popup{
-    // height: 150px;
-    // width: 150px;
+
+.popup {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,25 +138,37 @@ body {
     z-index: -1;
     font-size: 50px;
     color: white;
-  }
-  
-  .show{
+}
+
+.show {
     opacity: 1;
     z-index: 1;
-    -webkit-animation: desaparece 5s forwards; 
+    -webkit-animation: desaparece 5s forwards;
     animation: desaparece 5s forwards;
-  }
-  
-
-  #cartel{
-      font-size: 25px;
-  }
-
-  @keyframes desaparece {
-    0%   {opacity: 1;}
-    90%  {opacity: 1;}
-    100% {opacity: 0;}
 }
+
+
+#cartel {
+    p {
+        font-size: 16px;
+    }
+
+}
+
+@keyframes desaparece {
+    0% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 .cardIndex {
     color: #fff;
     padding: 50px;
@@ -160,7 +185,8 @@ body {
         width: 300px;
         transition: transform .5s;
     }
-    img:hover{
+
+    img:hover {
         transform: scale(1.1);
     }
 
@@ -349,153 +375,179 @@ body {
         background-color: #A62828;
     }
 }
-.footer{
+
+.footer {
     color: #fff;
     font-size: 15px;
     margin: 30px auto;
-    p{
+
+    p {
         transition: transform .8s;
         opacity: 0.3;
     }
-    p:hover{
+
+    p:hover {
         opacity: 0.7;
         transform: scale(1.1);
     }
 }
+
 @media only screen and (min-width: 320px) and (max-width: 991px) {
     .hidden {
         display: none !important;
     }
 
-    .marg1 {
-        color: #fff;
-        padding: 50px;
-        margin: 50px auto;
-
-        h1 {
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bolder;
-            margin: auto auto 80px auto;
-            font-size: 30px;
-        }
-
-        img {
-            display: flex;
-            align-items: center;
-            margin: auto auto 70px auto;
-            width: 250px;
-
-        }
-
+    #cartel {
         p {
-            width: 500px;
-            margin: auto;
-            justify-content: center;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            font-weight: lighter;
             font-size: 13px;
         }
-    }
-}
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-    .cardIndex{
-        img{
-            margin: 0px;
-        }
-        h3{
-            margin: 0px;
-            padding: 10px;
+
+        .marg1 {
+            color: #fff;
+            padding: 50px;
+            margin: 50px auto;
+
+            h1 {
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bolder;
+                margin: auto auto 80px auto;
+                font-size: 30px;
+            }
+
+            img {
+                display: flex;
+                align-items: center;
+                margin: auto auto 70px auto;
+                width: 250px;
+
+            }
+
+            p {
+                width: 500px;
+                margin: auto;
+                justify-content: center;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-weight: lighter;
+                font-size: 13px;
+            }
         }
     }
 
-    .marg1{
-        margin: auto;
-        p{
-            width: 250px;
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .cardIndex {
+            img {
+                margin: 0px;
+            }
+
+            h3 {
+                margin: 0px;
+                padding: 10px;
+            }
         }
-    }
-    .centrar {
-        svg{
-            justify-content: center;
+
+        .marg1 {
+            margin: auto;
+
+            p {
+                width: 250px;
+            }
+        }
+        .formRegistro{
+            width: 90%;
+        }
+        .centrar {
+            svg {
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+        }
+
+        .formulario1 {
+            width: 300px;
+            margin: auto;
+
+            p {
+                font-size: 15px;
+            }
+
+            input,
+            textarea {
+                outline: none;
+                width: 100%;
+                border: 1px solid white;
+            }
+
+            .field {
+                margin-bottom: 10px;
+                border: 1px solid #999;
+                padding: 10px;
+            }
+        }
+
+        .formRegistro {
             align-items: center;
             text-align: center;
-        }
-        
-    }
-    .formulario1{
-        width: 300px;
-        margin: auto;
-        p{
-            font-size: 15px;
-        }
-        input,
-        textarea {
-            outline: none;
-            width: 100%;
-            border: 1px solid white;
-        }
-    
-        .field {
-            margin-bottom: 10px;
-            border: 1px solid #999;
-            padding: 10px;
-        }
-    }
-    .formRegistro{
-        align-items: center;
-        text-align: center;
 
-    }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 978px) {
-
-    .cardIndex{
-        margin: auto;
+        }
     }
 
-    .marg1{
-        margin: auto;
-        p{
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            width: 400px;
-        }
-    }
-    .centrar {
-        svg{
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+    @media only screen and (min-width: 481px) and (max-width: 978px) {
+
+        .cardIndex {
             margin: auto;
         }
-        
-    }
-    .formulario1{
-        width: 400px;
-        margin: auto;
-        p{
-            font-size: 15px;
-        }
-        input,
-        textarea {
-            outline: none;
-            width: 100%;
-            border: 1px solid white;
-        }
-    
-        .field {
-            margin-bottom: 10px;
-            border: 1px solid #999;
-            padding: 15px;
-        }
-    }
-    .formRegistro{
-        align-items: center;
-        text-align: center;
 
-    }
-}
+        .marg1 {
+            margin: auto;
+
+            p {
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                width: 400px;
+            }
+        }
+
+        .centrar {
+            svg {
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: auto;
+            }
+
+        }
+
+        .formulario1 {
+            width: 400px;
+            margin: auto;
+
+            p {
+                font-size: 15px;
+            }
+
+            input,
+            textarea {
+                outline: none;
+                width: 100%;
+                border: 1px solid white;
+            }
+
+            .field {
+                margin-bottom: 10px;
+                border: 1px solid #999;
+                padding: 15px;
+            }
+        }
+
+        .formRegistro {
+            align-items: center;
+            text-align: center;
+
+        }
+    }   
+}            
