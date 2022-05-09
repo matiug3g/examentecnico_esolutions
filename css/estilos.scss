@@ -369,8 +369,58 @@ body {
         }
     }
 }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .cardIndex{
+        img{
+            margin: 0px;
+        }
+        h3{
+            margin: 0px;
+            padding: 10px;
+        }
+    }
 
-@media only screen and (min-width: 400px) and (max-width: 978px) {
+    .marg1{
+        margin: auto;
+        p{
+            width: 250px;
+        }
+    }
+    .centrar {
+        svg{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+    }
+    .formulario1{
+        width: 300px;
+        margin: auto;
+        p{
+            font-size: 15px;
+        }
+        input,
+        textarea {
+            outline: none;
+            width: 100%;
+            border: 1px solid white;
+        }
+    
+        .field {
+            margin-bottom: 10px;
+            border: 1px solid #999;
+            padding: 10px;
+        }
+    }
+    .formRegistro{
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 978px) {
 
     .cardIndex{
         margin: auto;
@@ -379,7 +429,10 @@ body {
     .marg1{
         margin: auto;
         p{
-            width: 450px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
         }
     }
     .centrar {
