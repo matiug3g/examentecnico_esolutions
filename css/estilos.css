@@ -353,7 +353,7 @@ body {
 }
 
 .marg1 p {
-  width: 800px;
+  width: 400px;
   font-size: 20px;
   margin: auto;
   -webkit-box-pack: center;
@@ -472,12 +472,24 @@ body {
           transform: scale(1.1);
 }
 
-@media only screen and (min-width: 320px) and (max-width: 991px) {
-  .hidden {
-    display: none !important;
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .formulario1 {
+    width: 300px;
+    margin: auto;
   }
-  .formRegistro {
-    width: 90%;
+  .formulario1 p {
+    font-size: 15px;
+  }
+  .formulario1 input,
+  .formulario1 textarea {
+    outline: none;
+    width: 100%;
+    border: 1px solid white;
+  }
+  .formulario1 .field {
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    padding: 10px;
   }
   .marg1 {
     color: #fff;
@@ -502,31 +514,22 @@ body {
     width: 250px;
   }
   .marg1 p {
-    width: 500px;
-    margin: auto;
+    width: 350px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: auto -25px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    font-size: 13px;
+    font-size: 14px;
   }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
   .cardIndex img {
     margin: 0px;
   }
   .cardIndex h3 {
     margin: 0px;
     padding: 10px;
-  }
-  .cardIndex .marg1 {
-    margin: auto;
-  }
-  .cardIndex .marg1 p {
-    width: 250px;
   }
   .cardIndex .centrar svg {
     -webkit-box-pack: center;
@@ -536,24 +539,6 @@ body {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-  }
-  .cardIndex .formulario1 {
-    width: 300px;
-    margin: auto;
-  }
-  .cardIndex .formulario1 p {
-    font-size: 15px;
-  }
-  .cardIndex .formulario1 input,
-  .cardIndex .formulario1 textarea {
-    outline: none;
-    width: 100%;
-    border: 1px solid white;
-  }
-  .cardIndex .formulario1 .field {
-    margin-bottom: 10px;
-    border: 1px solid #999;
-    padding: 10px;
   }
   .cardIndex .formRegistro {
     width: 90%;
@@ -570,7 +555,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) and (min-width: 481px) and (max-width: 978px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) and (min-width: 481px) and (max-width: 768px) {
   .cardIndex {
     margin: auto;
   }
@@ -585,7 +570,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 400px;
+    width: 600px;
   }
   .centrar svg {
     -webkit-box-pack: center;
@@ -620,6 +605,13 @@ body {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1600px) {
+  .marg1 p {
+    font-size: 20px;
+    width: 900px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

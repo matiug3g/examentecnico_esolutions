@@ -285,7 +285,7 @@ body {
     }
 
     p {
-        width: 800px;
+        width: 400px;
         font-size: 20px;
         margin: auto;
         justify-content: center;
@@ -392,13 +392,70 @@ body {
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 991px) {
-    .hidden {
-        display: none !important;
-    }
-    .formRegistro{
-        width: 90%;
-    }
+// @media only screen and (min-width: 320px) and (max-width: 991px) {
+//     .hidden {
+//         display: none !important;
+//     }
+//     .formRegistro{
+//         width: 90%;
+//     }
+
+//         .marg1 {
+//             color: #fff;
+//             padding: 50px;
+//             margin: 50px auto;
+
+//             h1 {
+//                 text-align: center;
+//                 font-family: 'Roboto', sans-serif;
+//                 font-weight: bolder;
+//                 margin: auto auto 80px auto;
+//                 font-size: 30px;
+//             }
+
+//             img {
+//                 display: flex;
+//                 align-items: center;
+//                 margin: auto auto 70px auto;
+//                 width: 250px;
+
+//             }
+
+//             p {
+//                 width: 400px;
+//                 margin: auto;
+//                 justify-content: center;
+//                 text-align: center;
+//                 font-family: 'Roboto', sans-serif;
+//                 font-weight: lighter;
+//                 font-size: 13px;
+//             }
+//         }
+        
+//     }
+
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .formulario1 {
+            width: 300px;
+            margin: auto;
+
+            p {
+                font-size: 15px;
+            }
+
+            input,
+            textarea {
+                outline: none;
+                width: 100%;
+                border: 1px solid white;
+            }
+
+            .field {
+                margin-bottom: 10px;
+                border: 1px solid #999;
+                padding: 10px;
+            }
+        }
 
         .marg1 {
             color: #fff;
@@ -422,18 +479,15 @@ body {
             }
 
             p {
-                width: 500px;
-                margin: auto;
+                width: 350px;
                 justify-content: center;
+                margin: auto -25px;
                 text-align: center;
                 font-family: 'Roboto', sans-serif;
                 font-weight: lighter;
-                font-size: 13px;
+                font-size: 14px;
             }
         }
-    }
-
-    @media only screen and (min-width: 320px) and (max-width: 480px) {
         .cardIndex {
             img {
                 margin: 0px;
@@ -443,14 +497,6 @@ body {
                 margin: 0px;
                 padding: 10px;
             }
-        .marg1 {
-            margin: auto;
-
-            p {
-                width: 250px;
-            }
-        }
-
         .centrar {
             svg {
                 justify-content: center;
@@ -459,29 +505,6 @@ body {
             }
 
         }
-
-        .formulario1 {
-            width: 300px;
-            margin: auto;
-
-            p {
-                font-size: 15px;
-            }
-
-            input,
-            textarea {
-                outline: none;
-                width: 100%;
-                border: 1px solid white;
-            }
-
-            .field {
-                margin-bottom: 10px;
-                border: 1px solid #999;
-                padding: 10px;
-            }
-        }
-
         .formRegistro {
             width: 90%;
             align-items: center;
@@ -496,7 +519,7 @@ body {
         }
     }
 
-    @media only screen and (min-width: 481px) and (max-width: 978px) {
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
 
         .cardIndex {
             margin: auto;
@@ -509,7 +532,7 @@ body {
                 text-align: center;
                 justify-content: center;
                 align-items: center;
-                width: 400px;
+                width: 600px;
             }
         }
 
@@ -552,3 +575,11 @@ body {
         }
     }   
 }            
+@media only screen and (min-width: 769px) and (max-width: 1600px) {
+    .marg1{
+    p{
+        font-size: 20px;
+        width: 900px;
+    }
+    }
+}
